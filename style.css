@@ -79,6 +79,11 @@ form button {
 form button:hover {
   background-color: #3b6e41;
 }
+.map h2 {
+  font-family: 'Merriweather', serif;
+  color: #2d5c3f;
+  margin-bottom: 1rem;
+}
 footer {
   text-align: center;
   padding: 1rem;
