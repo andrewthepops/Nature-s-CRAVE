@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legume - Nature's CRAVE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #ffffff;
+      color: #2d5c3f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header, main, footer {
+      width: 100%;
+      max-width: 1200px;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 200px;
+      text-align: center;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+    .price {
+      font-weight: bold;
+      color: green;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body style="background: #f6f2e7; background-image: url('images/fruit-pattern-left.svg'), url('images/fruit-pattern-right.svg'); background-repeat: no-repeat, no-repeat; background-position: left center, right center; background-size: 150px auto, 150px auto;">
 
+  <div class="container">
+  <header>
+    <h1>Nature's CRAVE</h1>
+    <p>Verdeturi</p>
+  </header>
+
+  <main>
+    <section class="products">
+      <h2 style="text-align: center;">Verdeturi</h2>
+      <div class="product-list">
+        <!-- Example vegetable product cards -->
+        
+        <div class="product">
+          <img src="Marar.jpg" alt="Marar">
+          <h3>Marar proaspat</h3>
+          <p class="price">4 leu/ legatura</p>
+        </div>
+
+        <div class="product">
+          <img src="Patrunjel.jpg" alt="Patrunjel">
+          <h3>Patrunjel</h3>
+          <p class="price">4 leu/legatura</p>
+        </div>
+
+        <div class="product">
+          <img src="Leustean.jpg" alt="Leustean">
+          <h3>Leustean</h3>
+          <p class="price">5 lei/KG</p>
+        </div>
+        <!-- Duplicate and customize more cards as needed -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html">&#8592; Inapoi la pagina principala</a></p>
+    <p>&copy; 2025 Nature's CRAVE</p>
+  </footer>
+</body>
+</html>
