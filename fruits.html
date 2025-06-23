@@ -3,9 +3,62 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fructe - Nature's CRAVE</title>
+  <title>Legume - Nature's CRAVE</title>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #ffffff;
+      color: #2d5c3f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header, main, footer {
+      width: 100%;
+      max-width: 1200px;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 200px;
+      text-align: center;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+    .price {
+      font-weight: bold;
+      color: green;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body style="background: #f6f2e7; background-image: url('images/fruit-pattern-left.svg'), url('images/fruit-pattern-right.svg'); background-repeat: no-repeat, no-repeat; background-position: left center, right center; background-size: 150px auto, 150px auto;">
 
@@ -17,25 +70,25 @@
 
   <main>
     <section class="products">
-       <h2 style="text-align:center;">Lista Fructe</h2>
+      <h2 style="text-align: center;">Lista Legume</h2>
       <div class="product-list">
-        <!-- Example fruit product cards -->
+        <!-- Example vegetable product cards -->
         <div class="product">
-          <img src="fruits/apple.jpg" alt="Mere">
-          <h3>Mere</h3>
-          <p class="price">10 lei/KG</p>
+          <img src="vegetables/tomato.jpg" alt="Rosii">
+          <h3>Rosii</h3>
+          <p class="price">7 lei/KG</p>
         </div>
 
         <div class="product">
-          <img src="fruits/bananas.jpg" alt="Banane">
-          <h3>Banane</h3>
-          <p class="price">8 lei/KG</p>
+          <img src="vegetables/pepper.jpg" alt="Ardei">
+          <h3>Ardei</h3>
+          <p class="price">9 lei/KG</p>
         </div>
 
         <div class="product">
-          <img src="fruits/grapes.jpg" alt="Struguri">
-          <h3>Struguri</h3>
-          <p class="price">12 lei/KG</p>
+          <img src="vegetables/cucumber.jpg" alt="Castraveti">
+          <h3>Castraveti</h3>
+          <p class="price">6 lei/KG</p>
         </div>
 
         <!-- Duplicate and customize more cards as needed -->
